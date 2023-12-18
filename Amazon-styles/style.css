@@ -1,0 +1,240 @@
+body{
+  background-color: rgb(220, 214, 214);
+}
+* {
+  margin: 0;
+  font-family:Arial;
+  border:border-box ;
+}
+.navbar {
+  height: 60px;
+  background-color: #0D4B42;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+.nav-logo {
+  height: 56px;
+  width: 113px;
+  padding-right: 2px;
+  margin-left: 8px;
+  border: 1px solid transparent;
+}
+.nav-logo:hover{
+  border: 1px solid white;
+}
+.logo {
+  background-color: #0D4B42;
+  height: 49;
+  width: 99;
+  margin: 1px 1px 1px 1px;
+  padding: 1px 8px 0px 6px;
+  padding-left: 9px;
+}
+.image {
+  height: 30px;
+  width: 98px;
+  padding-top: 13px; 
+}
+.nav-address {
+  height: 40px;
+  width: 80px;
+  padding-top: 12px;
+  padding-left: 10px;
+  border: 1px solid transparent;
+  margin-bottom: 1px; 
+}
+.nav-address:hover{
+  border: 1px solid white;
+}
+.add-first {
+  color: #CCCCCC;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  margin-left: 15px;
+}
+.add-second {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  margin-left: 3px;
+  padding-top: 2px;
+}
+.add-icon {
+ display: flex;
+ }
+.nav-search {
+    margin-left: 10px;
+    display:flex ;
+    justify-content: space-evenly;
+    background-color: rgb(238, 196, 203);
+    width: 630px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select {
+  text-align: center;
+  background-color: #e6e6e6;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  width: 50px;
+  border: none;
+}
+.search-input {
+  width:530px ;
+  border: none;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-search:hover{
+  border: 2px solid lightpink;
+} 
+span {
+  font-size: .7rem;
+}
+.nav-second{
+  font-size:.8rem;
+  font-weight: 700;
+}
+.border {
+  border: 1px solid transparent;
+}
+.border:hover{
+  border: 1px solid white;
+}
+.nav-cart i {
+  padding: 5px;
+  font-size: 30px;
+}
+.nav-cart {
+font-size: 0.85rem;
+font-weight: 700;
+}
+.panel {
+  height: 40px;
+  background-color: #27564f;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  float:left;
+  width: 100%;
+}
+.panel-ops p {
+  display: inline;
+  margin-left: 15px;
+}
+.panel-ops {
+    width: 90%;
+    font-size: 0.85rem;
+}
+.hero-section img{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  position: relative;
+}
+.hero-msg {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 95%;
+  position: absolute;
+  top: 350px;
+  left: 30px;
+}
+.box-1 {
+  position: absolute;
+  top: 420px;
+  left: 20px;
+}
+.box-1 img, .box-2 img,.box-3 img,.box-4 img,.box-5 img, 
+.box-6 img, .box-7 img, .box-8 img {
+  object-fit: cover;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  height: 300px;
+  width: 250px;
+}
+.box-1 p,.box-2 p,.box-3 p,.box-4 p,.box-5 p,
+.box-6 p,.box-7 p,.box-8 p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8{
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color:white;
+  width: 270px;
+  height: 400px;
+}
+.box-2 {
+  position: absolute;
+  top: 420px;
+  left: 330px;
+}
+.box-3 {
+  position: absolute;
+  top: 420px;
+  left: 640px;
+}
+.box-4 {
+  position: absolute;
+  top: 420px;
+  left: 950px;
+}
+.box-5 {
+  position: absolute;
+  top: 860px;
+  left: 20px;
+}
+.box-6 {
+  position: absolute;
+  top: 860px;
+  left: 330px;
+}
+.box-7 {
+  position: absolute;
+  top: 860px;
+  left: 640px;
+}
+.box-8 {
+  position: absolute;
+  top: 860px;
+  left: 950px;
+}
+.back{
+  margin-top: 600px;
+  height: 40px;
+  background-color:#384756;
+  color: #FFFFFF;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -4px;
+  font-weight: 600;
+}
+.footer {
+  padding-top: 30px; 
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0;
+  height: 200px;
+  background-color:#232F3E;
+  color: white;
+}
+.footer a {
+  font-size: 10px;
+  color: lightgray;
+}
